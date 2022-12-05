@@ -12,6 +12,10 @@ body{
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-weight: 400;
 }
+sup{
+	vertical-align: super;
+	font-size: 0.8em;
+}
 .wrapper-fluid{
 	width: 100%;
 	padding: 0 15px;
@@ -146,9 +150,9 @@ header .logo img{
 	color: #033a99;
 }
 footer{
-    height: 500px;
     background: #033a99;
-    margin-top: 2607px;
+    margin-top: 2654px;
+	padding-top: 70px;
 }
 
 .about-section h3{
@@ -172,4 +176,83 @@ footer{
 }
 .statistics h4{
 	
+}
+
+.footer-section{
+	
+}
+.footer-section .footer-logo{
+	max-width: 184px;
+	display: block;
+}
+.footer-section .footer-links{
+    margin-top: 24px;
+}
+.footer-section .footer-links li{
+    padding: 10px 0;
+}
+.footer-section .footer-links li a,
+.footer-section .footer-links li span{
+	color: #fff;
+    text-decoration: none;
+}
+.footer-section h4{
+    color: #fff;
+    margin: 8px 0 0;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+.footer-section .social-links{
+    margin-top: 10px;
+}
+.footer-section .social-links a{
+	color: #fff;
+    font-size: 18px;
+    line-height: 34px;
+    width: 34px;
+    display: inline-block;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 4px 0 0;
+}
+.footer-section .footer-heading{
+	font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer-section .footer-address{
+	margin-top: 20px;
+}
+.footer-section .footer-address h3{	
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: solid 2px;
+    line-height: 22px;
+    padding-bottom: 10px;
+
+}
+.footer-section .footer-address h4{
+	font-size: 24px;
+    font-weight: 500;
+	margin-bottom: 10px;
+	letter-spacing: 0;
+}
+.footer-section .footer-address p{
+	color: #fff;
+    line-height: 22px;
+}
+.footer-copy-info{
+    text-align: center;
+    margin-top: 59px;
+    font-size: 14px;
+    color: #7688db;
+}
+.go-top{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	color: #fff;
 }
